@@ -23,8 +23,15 @@
 The addition of these packages increase the size of the base image from *100 MB* to about *280 MB*.
 
 ------
-### locales
+### locale
+The following locale is automatically created in the image:
 
+    locale-gen en_US
+    update-locale LANG=C.UTF-8 LC_MESSAGES=POSIX  
+  
+This setting may be changed in the Dockerfile (using the RUN command) when building a new container from the *EarthWalkSoftware/debian-base* image, 
 
 ------
 ### About the syslog
+
+
