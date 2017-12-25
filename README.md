@@ -1,2 +1,2 @@
 # debian-base
-Debian 9.2 minimal + basic system utilities
+Debian 9.2 + basic system and utility packages
