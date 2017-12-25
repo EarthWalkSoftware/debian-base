@@ -22,3 +22,9 @@
 
 The addition of these packages increase the size of the base image from *100 MB* to about *280 MB*.
 
+------
+### locales
+
+
+------
+### About the syslog
