@@ -36,7 +36,7 @@ Documentation for this docker image is provided by the original *nimmis/docker-u
 
   https://github.com/nimmis/docker-ubuntu
 
-When following the directions, replace *nimmis/docker-ubuntu* with *EarthWalkSoftware/debian:9.2*, and *ubuntu* with *debian*.  The provided functions and utilities are identical to the original image, except that they are being run under *Debian 9.2*.
+When following the narrative, replace *nimmis/docker-ubuntu* with *EarthWalkSoftware/debian:9.2*, and *ubuntu* with *debian*.  The provided functions and utilities are identical to the original image, except that they are being run under *Debian 9.2*.
 
 ______
 ### locale
