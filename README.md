@@ -38,7 +38,8 @@ The following locale is automatically created in the image:
 This setting may be changed in the Dockerfile (using the RUN command) when building a new container from the *EarthWalkSoftware/debian-base* image, 
 
 ------
-### License
+### Licensed by Academic Free License v 3.0
 
+Read the license at https://github.com/EarthWalkSoftware/docker-alpine-htop/wiki/License
 
-
+Any conflict between the terms of this license and the terms of any license provided by nimmis/ubuntu, the terms of the nimmis/ubuntu license shall prevail.
