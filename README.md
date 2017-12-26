@@ -1,7 +1,13 @@
 # debian-base
 
-*EarthWalkSoftware/debian-base* is a version of the *nimmis/ubuntu* docker image modified for use with *Debian 9*.  It adds several system utilities and libraries that are nominally required to properly utilize the *library/debian:9.2* docker image, and adds system initialization and supervisor functions for better control.  
+*EarthWalkSoftware/debian-base* is a version of the *nimmis/docker-ubuntu* docker image modified for use with *Debian 9*.  It adds several system utilities and libraries that are nominally required to properly utilize the *library/debian:9.2* docker image, and adds system initialization and supervisor functions for better control.  
 
+A docker image of EarthWalkSoftware/debian-base is available from EarthWalkSoftware at Docker Hub:
+
+  https://hub.docker.com/r/earthwalksoftware/debian-base/
+
+______
+### Packages
 Among the additional packages are 
 - *apt*
 - *apt-transport-https*  
@@ -24,13 +30,15 @@ Among the additional packages are
 - *wget* 
 - *zip*
 
-Documentation for this docker image is provided by the original *nimmis/ubuntu* docker image documentation at  
+______
+### Documentation
+Documentation for this docker image is provided by the original *nimmis/docker-ubuntu* docker image documentation at  
 
   https://github.com/nimmis/docker-ubuntu
 
-When following the directions, replace *nimmis/ubuntu* with *EarthWalkSoftware/debian:9.2*, and *ubuntu* with *debian*.  The provided functions and utilities are identical to the original image, except that they are being run under *Debian 9.2*.
+When following the directions, replace *nimmis/docker-ubuntu* with *EarthWalkSoftware/debian:9.2*, and *ubuntu* with *debian*.  The provided functions and utilities are identical to the original image, except that they are being run under *Debian 9.2*.
 
-------
+______
 ### locale
 The following locale is automatically created in the image:
 
@@ -44,4 +52,4 @@ This setting may be changed in the Dockerfile (using the RUN command) when build
 
 Read the license at https://github.com/EarthWalkSoftware/docker-alpine-htop/wiki/License
 
-Any conflict between the terms of this license and the terms of any license provided by nimmis/ubuntu, the terms of the nimmis/ubuntu license shall prevail.
+Any conflict between the terms of this license and the terms of any license provided by nimmis/docker-ubuntu, the terms of the nimmis/docker-ubuntu license shall prevail.
