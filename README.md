@@ -55,6 +55,4 @@ Read the license at https://github.com/EarthWalkSoftware/docker-alpine-htop/wiki
 Any conflict between the terms of the *Academic Free License v 3.0* and the terms of any license provided by *nimmis/docker-ubuntu*, the terms of the *nimmis/docker-ubuntu* license shall prevail.
 ____
 
-2017-12-26
-Jay Wheeler
-EarthWalkSoftware
+2017-12-26. Jay Wheeler @ EarthWalkSoftware
