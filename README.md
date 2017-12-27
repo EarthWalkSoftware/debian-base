@@ -81,7 +81,7 @@ This setting may be changed in the Dockerfile (using the RUN command) when build
 ------
 ### Licensed by Academic Free License v 3.0
 
-Read the license at https://github.com/EarthWalkSoftware/docker-alpine-htop/wiki/License
+Read the license at https://github.com/EarthWalkSoftware/debian-base/wiki/License
 
 Any conflict between the terms of the *Academic Free License v 3.0* and the terms of any license provided by *nimmis/docker-ubuntu*, the terms of the *nimmis/docker-ubuntu* license shall prevail.
 ____
