@@ -1,4 +1,4 @@
-# debian-base
+# EarthWalkSoftware/debian-base
 
 *EarthWalkSoftware/debian-base* is a version of the [nimmis/docker-ubuntu](https://github.com/nimmis/docker-ubuntu) docker image modified for use with *Debian 9*.  It adds several system utilities and libraries that are nominally required to properly utilize the *library/debian* docker image, and adds system initialization and supervisor functions for better control.  
 
