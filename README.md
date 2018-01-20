@@ -2,7 +2,7 @@
 
 *EarthWalkSoftware/debian-base* is a version of the *nimmis/docker-ubuntu* docker image modified for use with *Debian 9*.  It adds several system utilities and libraries that are nominally required to properly utilize the *library/debian:9.2* docker image, and adds system initialization and supervisor functions for better control.  
 
-A docker image of *earthwalksoftware/debian-base* is available from *EarthWalkSoftware* at *Docker Hub*:
+A pre-made docker image of *earthwalksoftware/debian-base* is available from [EarthWalkSoftware](https://hub.docker.com/r/earthwalksoftware/debian-base/) at [Docker Hub](https://hub.docker.com):
 
   https://hub.docker.com/r/earthwalksoftware/debian-base/
 
@@ -32,11 +32,11 @@ Among the additional packages are
 
 ______
 ### Documentation
-Documentation for this docker image is provided by the original *nimmis/docker-ubuntu* docker image documentation at  
+Documentation for this docker image is provided by the original [nimmis/docker-ubuntu](https://github.com/nimmis/docker-ubuntu) docker image documentation at  
 
   https://github.com/nimmis/docker-ubuntu
 
-When following the narrative, replace *nimmis/docker-ubuntu* with *earthwalksoftware/debian-base*, and *ubuntu* with *debian*.  The provided functions and utilities are identical to the original image, except that they are being run under *Debian 9.2*.
+When following the narrative, replace *nimmis/docker-ubuntu* with *earthwalksoftware/debian-base*, and *ubuntu* with *debian*.  The provided functions and utilities are identical to the original image, except that they are being run under *Debian*.
 
 ______
 ### Creating a container
@@ -45,14 +45,14 @@ The following command will create a docker container named *base* and start a co
     docker run -it \
                --rm \
                --name=base \
-           earthwalksoftware/debian-base:1.0.0  
+           earthwalksoftware/debian-base  
 ______
 ## Simple tests
 
 #### Test 1
 Copy the docker command above (*Creating a container*) and paste it into a docker host command line to create a temporary docker container named *base*.  The docker container will display it's startup status, something like this:
 
-    docker run -it --rm --name=base debian-base:1.0.0  
+    docker run -it --rm --name=base debian-base  
     *** open logfile  
     *** Run files in /etc/my_runonce/  
     *** Run files in /etc/my_runalways/  
@@ -79,11 +79,8 @@ The following locale is automatically created in the image:
 This setting may be changed in the Dockerfile (using the RUN command) when building a new container from the *earthwalksoftware/debian-base* image, 
 
 ------
-### Licensed by Academic Free License v 3.0
-
-Read the license at https://github.com/EarthWalkSoftware/debian-base/wiki/License
-
-Any conflict between the terms of the *Academic Free License v 3.0* and the terms of any license provided by *nimmis/docker-ubuntu*, the terms of the *nimmis/docker-ubuntu* license shall prevail.
+### License
+The earthwalksoftware/debian-base release conforms to the terms of the [nimmis/docker-ubuntu](https://github.com/nimmis/docker-ubuntu) license.
 ____
 
-*2017-12-26. Jay Wheeler @ EarthWalkSoftware*
+*2018-01-20. Jay Wheeler @ EarthWalkSoftware*
