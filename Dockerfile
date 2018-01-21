@@ -2,16 +2,16 @@
 # =========================================================================
 #
 #	Dockerfile
-#	  Dockerfile for debian-base 
-#		in a Debian 9.2 (Stretch) docker container.
+#	  Dockerfile for debian-base (docker utilities base) 
+#		in a Debian 9.3 (Stretch) docker container.
 #
 # =========================================================================
 #
 # @author Jay Wheeler.
-# @version 1.0.0
+# @version 2.0.0
 # @copyright © 2017. EarthWalk Software.
 # @license Licensed under the Academic Free License version 3.0
-# @package debian-dbase
+# @package debian-base
 # @subpackage Dockerfile
 #
 # =========================================================================
@@ -33,7 +33,8 @@
 #
 # =========================================================================
 # =========================================================================
-FROM debian:9.2
+FROM debian:9.3
+
 MAINTAINER Jay Wheeler <EarthWalkSoftware@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
