@@ -5,12 +5,13 @@
 A pre-made docker image of *earthwalksoftware/debian-base* is available from [EarthWalkSoftware](https://hub.docker.com/r/earthwalksoftware/debian-base/) at https://hub.docker.com/r/earthwalksoftware/debian-base/
 
 ______
-# Docker Tags
+### Docker Tags
 
 **docker pull** will pull the **latest** image by default, but you can specify other versions (or tags) in the Docker **Tags** link, above.  For a description of how the debian-base tags work, go to the [Docker Tags](https://github.com/EarthWalkSoftware/debian-base/wiki/Docker-Tags) page of the [EarthWalk Software debian-base Wiki](https://github.com/EarthWalkSoftware/debian-base/wiki).
 
 ______
 ### Packages
+
 Among the additional packages are 
 - *apt*
 - *apt-transport-https*  
