@@ -10,9 +10,9 @@ ______
 **docker pull** will pull the **latest** image by default, but you can specify other versions (or tags) in the Docker **Tags** link, above.  For a description of how the debian-base tags work, go to the [Docker Tags](https://github.com/EarthWalkSoftware/debian-base/wiki/Docker-Tags) page of the [EarthWalk Software debian-base Wiki](https://github.com/EarthWalkSoftware/debian-base/wiki).
 
 ______
-### debian-base
+### [Documentation](https://github.com/EarthWalkSoftware/debian-base/wiki/debian-base)
 
-The documentation for [earthwalksoftware/debian-base](https://hub.docker.com/r/earthwalksoftware/debian-base/) has been re-located to the [EarthWalk Software Debian-Base Wiki](https://github.com/EarthWalkSoftware/debian-base/wiki/debian-base/).
+The documentation for [earthwalksoftware/debian-base](https://hub.docker.com/r/earthwalksoftware/debian-base/) has been moved to the [EarthWalk Software Debian-Base Wiki](https://github.com/EarthWalkSoftware/debian-base/wiki/debian-base) to combine the documentation for **docker hub** and **git hub** in a single place for better looking presentation and ease of maintenance.
 
 ______
 
