@@ -12,7 +12,7 @@ ______
 ______
 ### debian-base
 
-The documentation for [earthwalksoftware/debian-base](https://hub.docker.com/r/earthwalksoftware/debian-base/) has been re-located to the [EarthWalk Software Debian-Base Wiki](https://github.com/EarthWalkSoftware/kaptain-debian/wiki/debian-base/).
+The documentation for [earthwalksoftware/debian-base](https://hub.docker.com/r/earthwalksoftware/debian-base/) has been re-located to the [EarthWalk Software Debian-Base Wiki](https://github.com/EarthWalkSoftware/debian-base/wiki/debian-base/).
 
 ______
 
